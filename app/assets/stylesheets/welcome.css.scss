@@ -1,0 +1,95 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$black: #000000;
+$green: #008000;
+$grey: #D3D3D3;
+$biruzovuy: #00CED1;
+
+@mixin kryglue_yglu
+{
+	//border-radius: 20px;
+	//box-shadow: 0 0 5px #e7d5c0;
+	border-radius: 20px;
+	box-shadow: 0 0 30px $black;
+}
+
+.clear 
+{
+	clear:both;
+}
+
+img {
+	outline: 1px solid $biruzovuy; //kontor bloka;
+	padding: 5px;
+	background: $grey;
+	margin-right: 5px;
+	margin-botton: 5px;
+}
+
+img:hover {
+	//outline: 5px solid $green; //kontor bloka;
+	background: $biruzovuy;
+}
+
+#left_of_buttons {
+	float: left;
+}
+
+#buttons {
+	width: 150px;
+	height: 115px;
+	margin: 0 auto;
+}
+
+#wrapper_calculator {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	@include kryglue_yglu;
+}
+
+.float_left {
+	float: left;
+}
+
+#fields {
+	margin-left: 70px;
+}
+
+.text_field {
+	width: 100px;
+}
+
+#balance {
+	margin-right: 5px;
+}
+
+#per_trade {
+	margin-right: 5px;
+}
+
+#stop_loss {
+	margin-right: 5px;
+}
+
+#shares {
+	margin-right: 5px;
+}
+
+#label_balance {
+	color: #32CD32;
+}
+
+#label_per_trade {
+	color: #0000FF;
+}
+
+#label_stop_loss {
+	color: #B22222;
+}
+
+#label_shares {
+	color: #FFA500;
+}

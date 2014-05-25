@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* line 19, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 23, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+img {
+  outline: 1px solid darkturquoise;
+  padding: 5px;
+  background: lightgrey;
+  margin-right: 5px;
+  margin-botton: 5px;
+}
+
+/* line 31, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+img:hover {
+  background: darkturquoise;
+}
+
+/* line 36, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#left_of_buttons {
+  float: left;
+}
+
+/* line 40, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#buttons {
+  width: 150px;
+  height: 115px;
+  margin: 0 auto;
+}
+
+/* line 46, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#wrapper_calculator {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 0 30px black;
+}
+
+/* line 53, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+.float_left {
+  float: left;
+}
+
+/* line 57, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#fields {
+  margin-left: 70px;
+}
+
+/* line 61, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+.text_field {
+  width: 100px;
+}
+
+/* line 65, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#balance {
+  margin-right: 5px;
+}
+
+/* line 69, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#per_trade {
+  margin-right: 5px;
+}
+
+/* line 73, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#stop_loss {
+  margin-right: 5px;
+}
+
+/* line 77, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#shares {
+  margin-right: 5px;
+}
+
+/* line 81, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#label_balance {
+  color: #32CD32;
+}
+
+/* line 85, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#label_per_trade {
+  color: #0000FF;
+}
+
+/* line 89, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#label_stop_loss {
+  color: #B22222;
+}
+
+/* line 93, /home/pavel/ProjectsRails/calculatorForExchange/app/assets/stylesheets/welcome.css.scss */
+#label_shares {
+  color: #FFA500;
+}

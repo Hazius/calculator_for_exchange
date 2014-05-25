@@ -1,0 +1,35 @@
+<% lv_size_for_images = "50x50" %>
+
+<div id="wrapper_calculator">
+	<br>
+	<div id="buttons">
+		<div id="left_of_buttons">
+			<%= image_tag("minus.png", size: lv_size_for_images) %><br>
+			<%= image_tag("plus.png", size: lv_size_for_images) %>
+		</div>
+		<div id="right_of_buttons">
+			<%= image_tag("ravno.png", size: "50x115") %>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<br>
+	<div id="fields">
+		<div id="balance" class="float_left">
+			<div id="label_balance">Balance</div>
+			<%= text_field_tag("Balance", nil, class: "text_field" ) %>
+		</div>
+		<div id="per_trade" class="float_left">
+			<div id="label_per_trade">% per trade</div>
+			<%= text_field_tag("Balance", nil, class: "text_field" ) %>
+		</div>
+		<div id="stop_loss" class="float_left">
+			<div id="label_stop_loss">Stop loss $</div>
+			<%= text_field_tag("Balance", nil, class: "text_field" ) %>
+		</div>
+		<div id="shares" class="float_left">
+			  <div id="label_shares">&nbspShares</div>
+			= <%= text_field_tag("Balance", nil, class: "text_field" ) %>
+		</div>
+	</div>
+
+</div>
