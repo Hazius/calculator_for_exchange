@@ -16,19 +16,19 @@
 	<div id="fields">
 		<div id="balance" class="float_left">
 			<div id="label_balance">Balance</div>
-			<%= text_field_tag("Balance", nil, class: "text_field" ) %>
+			<%= text_field_tag("Balance", "222", class: "text_field", id: "text_field_balance" ) %>
 		</div>
 		<div id="per_trade" class="float_left">
 			<div id="label_per_trade">% per trade</div>
-			<%= text_field_tag("Balance", nil, class: "text_field" ) %>
+			<%= text_field_tag("Per_trade", nil, class: "text_field", id: "text_field_per_trade" ) %>
 		</div>
 		<div id="stop_loss" class="float_left">
 			<div id="label_stop_loss">Stop loss $</div>
-			<%= text_field_tag("Balance", nil, class: "text_field" ) %>
+			<%= text_field_tag("Stop_loss", nil, class: "text_field", id: "text_field_stop_loss" ) %>
 		</div>
 		<div id="shares" class="float_left">
-			  <div id="label_shares">&nbspShares</div>
-			= <%= text_field_tag("Balance", nil, class: "text_field" ) %>
+			  <div id="label_shares">&nbsp&nbsp&nbspShares</div>
+			= <%= text_field_tag("Shares", nil, class: "text_field", id: "text_field_shares" ) %>
 		</div>
 	</div>
 
